@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Login Form</h1>
+    <div class="form">
+      
+        <h5 style="color: white;">username</h5>
+        <input type="email" placeholder="Enter Your Name" id="name">
+          <br><br>
+          <h5 style="color: white;">Password</h5>
+         <input type="password" placeholder="Password" id="pass">
+         <h3>Forgot Password?</h3>
+    </div>
+    <button onclick="btn()">Submit</button>
+    <h6>Not a Member? <a href="">Sign-up</a></h6>
+   </div>
+   <script>
+    function btn(){
+        let email = document.getElementById("name").value;
+        let pass = document.getElementById("pass").value;
+        if( email == 'jesmin@123' && pass == '12345'){
+            alert("success full !")
+            //window.location.assign("Home.html");
+        }else{
+            alert("wrong entry");
+        }
+    }
+   </script>
+</body>
+</html>

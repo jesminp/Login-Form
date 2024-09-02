@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("b.jpg") no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: 9px 9px 9px 9px rgba(255, 255, 255, 0.442);
+    width: 400px;
+    height: 440px;
+    margin-top: 30vh;
+    margin-left: 35rem;
+    border-radius: 10px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.form h4{
+    color: white;
+}
+button{
+    width: 13rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+   margin-left: 6rem;
+   margin-top: 5rem;
+   font-weight: bold;
+   transition: 2s;
+}
+button:hover{
+    background-color: rgb(79, 77, 77);
+    color: aliceblue;
+}
+.form{
+    margin-left:4rem;
+    margin-top: 4rem;
+
+}
+.form input{
+    border-radius: 5px;
+    width: 17rem;
+    height: 2rem;
+    border: none;
+    
+}
+.form h5{
+   font-size: 1.4rem;
+}
+h6{
+    margin-left: 7.5rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+a{
+    border: none;
+    color: blueviolet;
+
+}
+h3{
+    color: white;
+    margin-left: 8rem;
+    font-size: 1rem;
+}
